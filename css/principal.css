@@ -356,16 +356,24 @@ footer {
 
 /* Estilos para tablet (768px) */
 @media (max-width: 768px) {
+  .ul-barra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   .barra li{
-    font-size: 3rem;
+      font-size: 2.8125rem;
+      margin: 0.3125rem 0;
   }
 }
 
 /* Estilos para móvil (320px) */
 @media (max-width: 320px) {
-  /* Agrega aquí tus estilos específicos para la vista móvil */
-  .barra li{
-    font-size: 1rem;
+  .barra li {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.3125rem; 
   }
 }
 
@@ -373,4 +381,4 @@ footer {
 @media (min-width: 769px) {
 }
 
-  /* Agrega aquí tus estilos específicos para la vista de escritorio */
+
