@@ -1,0 +1,146 @@
+#header{
+    background-color: #FC7300;
+}
+body{
+    background-image: url(./IMG/form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div-formulario{
+    background-size: 100%;
+    background-position: center;
+    width: 100vw;
+}
+
+.form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0.3125rem;
+    font-family: 'Belanosima', sans-serif;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3125rem;
+    text-align: center;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    border: 0.125rem solid #1F8A70;
+    border-radius: 0.25rem;
+}
+
+textarea {
+    resize: vertical;
+    height: 6.25rem;
+}
+
+input[type="submit"] {
+    background-color: #1F8A70;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    width: auto;
+}
+/** footer **/
+
+footer{
+    background-color:#181823 ;
+    height: 100%;
+    width: 100vw;
+}
+.footer-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 3.125rem;
+}
+.bi-facebook::before{
+    color: #1877f2;
+    font-size: 2rem;
+    padding: 0.9375rem;
+}
+.bi-instagram::before{
+    color: #c13584;
+    font-size: 2rem;
+    padding: 0.9375rem;
+}
+.bi-twitter::before{
+    color: #1da1f2;
+    font-size: 2rem;
+    padding: 0.9375rem;
+}
+.bi-whatsapp::before{
+    color: #25d366;
+    font-size: 1.25rem;
+    padding: 0.3125rem;
+}
+
+.informacion-contacto{
+    order: 1;
+    gap: 0.9375rem;
+    display: flex;
+    flex-direction: column;
+}
+.contacto{
+    font-family: 'Belanosima', sans-serif;
+    color: #EFF5F5;    font-size: 1.5625rem;
+
+}
+.mail{
+    font-family: 'Belanosima', sans-serif;
+    color: #EFF5F5;
+    font-size: 1.5625remx;
+}
+.whatsapp{
+    font-family: 'Belanosima', sans-serif;
+    color: #EFF5F5;
+    text-decoration: underline;
+    justify-content: center;
+    font-size: 1.5625rem;
+}
+.redes{
+    display: flex;
+    order: 3;
+}
+.derechos-reservados {
+    font-family: 'Poppins', sans-serif;
+    background-color: #00425A;
+    color: #EFF5F5;
+    text-align: center;
+    padding: 0.625rem;
+    font-size: 0.625rem;
+}
+
+/**media queries**/
+
+/* Estilos para tablet (768px) */
+@media (max-width: 768px) {
+    /* Agrega aquí tus estilos específicos para la vista de tablet */
+  }
+  
+  /* Estilos para móvil (320px) */
+  @media (max-width: 320px) {
+    /* Agrega aquí tus estilos específicos para la vista móvil */
+  }
+

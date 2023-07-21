@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --color-fuente: #fc7300;
+  --color-fondo: #1f8a70;
+  --color-texthyf: #00425a;
+  --color-titulos: #181823;
+  --color-iconos: #eff5f5;
+}
+header {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.barra {
+  background-image: url(./IMG/escuelaheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 25rem;
+  position: relative;
+  color: #eff5f5;
+}
+
+a:visited {
+  color: #eff5f5;
+}
+a:link {
+  color: #eff5f5;
+}
+
+#quienes {
+  list-style: none;
+  justify-content: space-around;
+  font-size: 3.75rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+  font-family: "Cabin Sketch";
+  font-style: normal;
+  font-weight: 700;
+}
+#propuesta {
+  list-style: none;
+  justify-content: space-around;
+  font-size: 3.75rem;
+  position: absolute;
+  left: 2.5rem;
+  font-family: "Cabin Sketch";
+  font-style: normal;
+  font-weight: 700;
+  bottom: 8.75rem;
+}
+#why {
+  list-style: none;
+  justify-content: space-around;
+  font-size: 3.75rem;
+  position: absolute;
+  left: 2.5rem;
+  bottom: 1.25rem;
+  font-family: "Cabin Sketch";
+  font-style: normal;
+  font-weight: 700;
+}
+#ultimas {
+  list-style: none;
+  justify-content: space-around;
+  font-size: 3.75rem;
+  position: absolute;
+  right: 34.375rem;
+  bottom: 8.75rem;
+  font-family: "Cabin Sketch";
+  font-style: normal;
+  font-weight: 700;
+}
+#donde {
+  list-style: none;
+  justify-content: space-around;
+  font-size: 3.75rem;
+  position: absolute;
+  top: 2.5rem;
+  right: 31.25rem;
+  font-family: "Cabin Sketch";
+  font-style: normal;
+  font-weight: 700;
+}
+#contacto {
+  list-style: none;
+  justify-content: space-around;
+  font-size: 3.75rem;
+  position: absolute;
+  top: 19.375rem;
+  right: 40.625rem;
+  font-family: "Cabin Sketch";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/** cuerpo **/
+.nombre {
+  background-color: #1f8a70;
+  font-family: "Belanosima", sans-serif;
+  font-size: 6.25rem;
+  text-align: center;
+  border: solid #181823 0.1875rem;
+  -webkit-text-stroke: 0.125rem #eff5f5;
+}
+
+main {
+  background-color: #eff5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#quienes-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  background-image: url(./IMG/quienssomos.jpg);
+  width: 100vw;
+  height: 18.75rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Belanosima", sans-serif;
+  border: solid #181823 1px;
+}
+
+#propuesta-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  background-image: url(./IMG/propuesta.jpeg);
+  width: 100vw;
+  height: 18.75rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Belanosima", sans-serif;
+  border: solid #181823 1px;
+}
+
+#why-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  background-image: url(./IMG/escuela.jpg);
+  width: 100vw;
+  height: 18.75rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Belanosima", sans-serif;
+  border: solid #181823 1px;
+}
+
+#noticias-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  background-image: url(./IMG/noticias.jpg);
+  width: 100vw;
+  height: 18.75rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Belanosima", sans-serif;
+  border: solid #181823 1px;
+}
+
+.noticias-div {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(252, 115, 0, 0.2);
+  border: 0.125rem solid #fc7300;
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+  max-width: 90%;
+  font-size: 1.25rem;
+}
+
+.quienes-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 0.125rem solid #eff5f5;
+  padding: 2rem;
+  max-width: 90%;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.why-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(31, 138, 112, 0.3);
+  border: 0.125rem solid #1f8a70;
+  padding: 2rem;
+  max-width: 90%;
+  align-items: center;
+  font-size: 1.25rem;
+}
+.propuesta-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 66, 90, 0.5);
+  border: 0.125rem solid #00425a;
+  padding: 2rem;
+  max-width: 90%;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.875rem;
+  padding: 1rem;
+}
+
+/**formulario*/
+
+.div-formulario {
+  background-image: url(./IMG/form.jpg);
+  background-size: 100%;
+  background-position: center;
+  width: 100vw;
+  height: 22rem;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  border-radius: 0.3125rem;
+  font-family: "Belanosima", sans-serif;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3125rem;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+  border: 0.125rem solid #1f8a70;
+  border-radius: 0.25rem;
+}
+
+textarea {
+  resize: vertical;
+  height: 6.25rem;
+}
+
+input[type="submit"] {
+  background-color: #1f8a70;
+  color: #ffffff;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  width: auto;
+}
+
+/** footer **/
+footer {
+  background-color: #181823;
+  height: 100%;
+  width: 100vw;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3.125rem;
+}
+.bi-facebook::before {
+  color: #1877f2;
+  font-size: 2rem;
+  padding: 0.9375rem;
+}
+.bi-instagram::before {
+  color: #c13584;
+  font-size: 2rem;
+  padding: 0.9375rem;
+}
+.bi-twitter::before {
+  color: #1da1f2;
+  font-size: 2rem;
+  padding: 0.9375rem;
+}
+.bi-whatsapp::before {
+  color: #25d366;
+  font-size: 1.25rem;
+  padding: 0.3125rem;
+}
+
+.informacion-contacto {
+  order: 3;
+  gap: 0.9375rem;
+  display: flex;
+  flex-direction: column;
+}
+.contacto {
+  font-family: "Belanosima", sans-serif;
+  color: #eff5f5;
+  font-size: 25px;
+}
+.mail {
+  font-family: "Belanosima", sans-serif;
+  color: #eff5f5;
+  font-size: 1.5625rem;
+}
+.whatsapp {
+  font-family: "Belanosima", sans-serif;
+  color: #eff5f5;
+  text-decoration: underline;
+  justify-content: center;
+  font-size: 1.5625rem;
+}
+.mapa {
+  order: 2;
+}
+.redes {
+  display: flex;
+  order: 1;
+}
+.derechos-reservados {
+  font-family: "Poppins", sans-serif;
+  background-color: #00425a;
+  color: #eff5f5;
+  text-align: center;
+  padding: 0.625rem;
+  font-size: 0.625rem;
+}
+.nombre-footer{
+  font-family: "Belanosima", sans-serif;
+  font-size: 3.25rem;
+  text-align: center;
+  border: solid #181823 0.1875rem;
+  -webkit-text-stroke: 1px #eff5f5; 
+}
+
+/* Estilos para tablet (768px) */
+@media (max-width: 768px) {
+  /* Agrega aquí tus estilos específicos para la vista de tablet */
+}
+
+/* Estilos para móvil (320px) */
+@media (max-width: 320px) {
+  /* Agrega aquí tus estilos específicos para la vista móvil */
+}
