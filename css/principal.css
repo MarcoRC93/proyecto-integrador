@@ -328,6 +328,10 @@ footer {
 }
 .mapa {
   order: 2;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .redes {
   display: flex;
