@@ -2,7 +2,7 @@
     background-color: #FC7300;
 }
 body{
-    background-image: url(./img/form.jpg);
+    background-image: url(/img/form.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -68,86 +68,93 @@ footer {
     background-color: #181823;
     height: 100%;
     width: 100vw;
-}
-.footer-container {
+  }
+  .footer-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 3.125rem;
-}
-.bi-facebook::before {
+  }
+  .nombre-footer{
+    order: 2;
+  }
+  .bi-facebook::before {
     color: #1877f2;
     font-size: 2rem;
     padding: 0.9375rem;
-}
-.bi-instagram::before {
+  }
+  .bi-instagram::before {
     color: #c13584;
     font-size: 2rem;
     padding: 0.9375rem;
-}
-.bi-twitter::before {
+  }
+  .bi-twitter::before {
     color: #1da1f2;
     font-size: 2rem;
     padding: 0.9375rem;
-}
-.bi-whatsapp::before {
+  }
+  .bi-whatsapp::before {
     color: #25d366;
     font-size: 1.25rem;
     padding: 0.3125rem;
-}
-
-.informacion-contacto {
+  }
+  
+  .informacion-contacto {
     order: 3;
     gap: 0.9375rem;
     display: flex;
     flex-direction: column;
-}
-.contacto {
+  }
+  .contacto {
     font-family: "Belanosima", sans-serif;
     color: #eff5f5;
     font-size: 25px;
-}
-.mail {
+  }
+  .mail {
     font-family: "Belanosima", sans-serif;
     color: #eff5f5;
     font-size: 1.5625rem;
-}
-.whatsapp {
+  }
+  .whatsapp {
     font-family: "Belanosima", sans-serif;
     color: #eff5f5;
     text-decoration: underline;
     justify-content: center;
     font-size: 1.5625rem;
-}
-.redes {
+  }
+  .mapa {
+    order: 2;
+  }
+  .redes {
     display: flex;
-}
-.derechos-reservados {
+    order: 1;
+  }
+  .derechos-reservados {
     font-family: "Poppins", sans-serif;
     background-color: #00425a;
     color: #eff5f5;
     text-align: center;
     padding: 0.625rem;
     font-size: 0.625rem;
-}
-.nombre-footer{
+  }
+  .nombre-footer{
     font-family: "Belanosima", sans-serif;
     font-size: 3.25rem;
     text-align: center;
     border: solid #181823 0.1875rem;
     -webkit-text-stroke: 0.0625rem #eff5f5; 
-}
+  }
 
 /**media queries**/
 
 /* Estilos para tablet (768px) */
 @media (max-width: 768px) {
     /* Agrega aquí tus estilos específicos para la vista de tablet */
-}
-
+  }
+  
   /* Estilos para móvil (320px) */
-@media (max-width: 320px) {
+  @media (max-width: 320px) {
     /* Agrega aquí tus estilos específicos para la vista móvil */
-}
+  }
 

@@ -18,7 +18,7 @@ header {
   background-position: center;
 }
 .barra {
-  background-image: url(./img/escuelaheader.jpg);
+  background-image: url(../img/escuelaheader.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -38,72 +38,43 @@ a:visited {
 a:link {
   color: #eff5f5;
 }
+.barra li{
+  list-style-type: none;
+  font-size: 3.75rem;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Cabin Sketch";
+
+}
 
 #quienes {
-  list-style: none;
-  justify-content: space-around;
-  font-size: 3.75rem;
-  position: absolute;
-  top: 2.5rem;
+  
   left: 2.5rem;
-  font-family: "Cabin Sketch";
-  font-style: normal;
-  font-weight: 700;
+  top: 1rem;
 }
 #propuesta {
-  list-style: none;
-  justify-content: space-around;
-  font-size: 3.75rem;
-  position: absolute;
   left: 2.5rem;
-  font-family: "Cabin Sketch";
-  font-style: normal;
-  font-weight: 700;
-  bottom: 8.75rem;
+  top: 9rem;
 }
 #why {
-  list-style: none;
-  justify-content: space-around;
-  font-size: 3.75rem;
-  position: absolute;
   left: 2.5rem;
-  bottom: 1.25rem;
-  font-family: "Cabin Sketch";
-  font-style: normal;
-  font-weight: 700;
+  top: 17rem;
 }
 #ultimas {
-  list-style: none;
-  justify-content: space-around;
-  font-size: 3.75rem;
-  position: absolute;
-  right: 34.375rem;
-  bottom: 8.75rem;
-  font-family: "Cabin Sketch";
-  font-style: normal;
-  font-weight: 700;
+  right: 40rem;
+  top: 2.5rem;
+
 }
 #donde {
-  list-style: none;
-  justify-content: space-around;
-  font-size: 3.75rem;
-  position: absolute;
-  top: 2.5rem;
-  right: 31.25rem;
-  font-family: "Cabin Sketch";
-  font-style: normal;
-  font-weight: 700;
+  right: 35rem;
+  top: 11rem;
 }
+
 #contacto {
-  list-style: none;
-  justify-content: space-around;
-  font-size: 3.75rem;
-  position: absolute;
-  top: 19.375rem;
-  right: 40.625rem;
-  font-family: "Cabin Sketch";
-  font-style: normal;
-  font-weight: 700;
+  
+  right: 45rem;
+  top: 18rem;
 }
 
 /** cuerpo **/
@@ -132,7 +103,7 @@ main {
   align-items: center;
   justify-content: center;
   height: 10rem;
-  background-image: url(./img/quienssomos.jpg);
+  background-image: url(../img/quienssomos.jpg);
   width: 100vw;
   height: 18.75rem;
   background-size: cover;
@@ -148,7 +119,7 @@ main {
   align-items: center;
   justify-content: center;
   height: 10rem;
-  background-image: url(./img/propuesta.jpeg);
+  background-image: url(../img/propuesta.jpeg);
   width: 100vw;
   height: 18.75rem;
   background-size: cover;
@@ -164,7 +135,7 @@ main {
   align-items: center;
   justify-content: center;
   height: 10rem;
-  background-image: url(./img/escuela.jpg);
+  background-image: url(../img/escuela.jpg);
   width: 100vw;
   height: 18.75rem;
   background-size: cover;
@@ -180,7 +151,7 @@ main {
   align-items: center;
   justify-content: center;
   height: 10rem;
-  background-image: url(./img/noticias.jpg);
+  background-image: url(../img/noticias.jpg);
   width: 100vw;
   height: 18.75rem;
   background-size: cover;
@@ -245,7 +216,7 @@ h3 {
 /**formulario*/
 
 .div-formulario {
-  background-image: url(./img/form.jpg);
+  background-image: url(../img/form.jpg);
   background-size: 100%;
   background-position: center;
   width: 100vw;
@@ -380,4 +351,7 @@ footer {
 /* Estilos para móvil (320px) */
 @media (max-width: 320px) {
   /* Agrega aquí tus estilos específicos para la vista móvil */
+  .barra{
+    font-size: 1rem;
+  }
 }
