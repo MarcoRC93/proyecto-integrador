@@ -369,7 +369,7 @@ footer {
   font-size: 3.25rem;
   text-align: center;
   border: solid #181823 0.1875rem;
-  -webkit-text-stroke: 1px #eff5f5; 
+  -webkit-text-stroke: 0.0625rem #eff5f5; 
 }
 
 /* Estilos para tablet (768px) */
