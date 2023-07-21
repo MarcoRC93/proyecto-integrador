@@ -1,160 +1,204 @@
-#header{
-    background-color: #FC7300;
+#header {
+  background-color: #FC7300;
 }
-body{
-    background-image: url(../img/form.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+body {
+  background-image: url(../img/form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-main{
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
-.div-formulario{
-    background-size: 100%;
-    background-position: center;
-    width: 100vw;
+.div-formulario {
+  background-size: 100%;
+  background-position: center;
+  width: 100vw;
 }
 
 .form {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 0.3125rem;
-    font-family: 'Belanosima', sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 0.3125rem;
+  font-family: 'Belanosima', sans-serif;
 }
 
 label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 0.3125rem;
-    text-align: center;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3125rem;
+  text-align: center;
 
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 0.625rem;
-    margin-bottom: 0.625rem;
-    border: 0.125rem solid #1F8A70;
-    border-radius: 0.25rem;
+  width: 100%;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+  border: 0.125rem solid #1F8A70;
+  border-radius: 0.25rem;
 }
 
 textarea {
-    resize: vertical;
-    height: 6.25rem;
+  resize: vertical;
+  height: 6.25rem;
 }
 
 input[type="submit"] {
-    background-color: #1F8A70;
-    color: #FFFFFF;
-    border: none;
-    padding: 0.625rem 1.25rem;
-    cursor: pointer;
-    border-radius: 0.25rem;
-    font-weight: bold;
-    width: auto;
+  background-color: #1F8A70;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  width: auto;
 }
+
 /** footer **/
 
-footer {
-    background-color: #181823;
-    height: 100%;
-    width: 100vw;
-  }
-  .footer-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3.125rem;
-  }
-  .nombre-footer{
-    order: 2;
-  }
-  .bi-facebook::before {
-    color: #1877f2;
-    font-size: 2rem;
-    padding: 0.9375rem;
-  }
-  .bi-instagram::before {
-    color: #c13584;
-    font-size: 2rem;
-    padding: 0.9375rem;
-  }
-  .bi-twitter::before {
-    color: #1da1f2;
-    font-size: 2rem;
-    padding: 0.9375rem;
-  }
-  .bi-whatsapp::before {
-    color: #25d366;
-    font-size: 1.25rem;
-    padding: 0.3125rem;
-  }
-  
-  .informacion-contacto {
-    order: 3;
-    gap: 0.9375rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .contacto {
-    font-family: "Belanosima", sans-serif;
-    color: #eff5f5;
-    font-size: 25px;
-  }
-  .mail {
-    font-family: "Belanosima", sans-serif;
-    color: #eff5f5;
-    font-size: 1.5625rem;
-  }
-  .whatsapp {
-    font-family: "Belanosima", sans-serif;
-    color: #eff5f5;
-    text-decoration: underline;
-    justify-content: center;
-    font-size: 1.5625rem;
-  }
-  .mapa {
-    order: 2;
-  }
-  .redes {
-    display: flex;
-    order: 1;
-  }
-  .derechos-reservados {
-    font-family: "Poppins", sans-serif;
-    background-color: #00425a;
-    color: #eff5f5;
-    text-align: center;
-    padding: 0.625rem;
-    font-size: 0.625rem;
-  }
-  .nombre-footer{
-    font-family: "Belanosima", sans-serif;
-    font-size: 3.25rem;
-    text-align: center;
-    border: solid #181823 0.1875rem;
-    -webkit-text-stroke: 0.0625rem #eff5f5; 
-  }
+#footer {
+  background-color: #181823;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.redesYcontacto {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bi-facebook::before {
+  color: #1877f2;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.bi-instagram::before {
+  color: #c13584;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.bi-twitter::before {
+  color: #1da1f2;
+  font-size: 2rem;
+  padding: 1rem;
+
+}
+
+.bi-whatsapp::before {
+  color: #25d366;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+}
+
+.informacion-contacto {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto {
+  font-family: "Belanosima", sans-serif;
+  color: #eff5f5;
+  font-size: 25px;
+}
+
+.mail {
+  font-family: "Belanosima", sans-serif;
+  color: #eff5f5;
+  font-size: 1.5625rem;
+}
+
+.whatsapp {
+  font-family: "Belanosima", sans-serif;
+  color: #eff5f5;
+  text-decoration: underline;
+  justify-content: center;
+  font-size: 1.5625rem;
+}
+
+
+
+.redes {
+  display: flex;
+  order: 1;
+}
+
+.derechos-reservados {
+  font-family: "Poppins", sans-serif;
+  background-color: #00425a;
+  color: #eff5f5;
+  text-align: center;
+  width:100%;
+
+}
+
+
+.nombre-footer {
+  font-family: "Belanosima", sans-serif;
+  font-size: 3.25rem;
+  text-align: center;
+  border: solid #181823 0.1875rem;
+  -webkit-text-stroke: 0.0625rem #eff5f5;
+}
 
 /**media queries**/
 
 /* Estilos para tablet (768px) */
 @media (max-width: 768px) {
-    /* Agrega aquí tus estilos específicos para la vista de tablet */
-  }
-  
-  /* Estilos para móvil (320px) */
-  @media (max-width: 320px) {
-    /* Agrega aquí tus estilos específicos para la vista móvil */
+  /* Agrega aquí tus estilos específicos para la vista de tablet */
+}
+
+/* Estilos para tablet (576px) */
+@media (min-width: 576px) {
+  /* Agrega aquí tus estilos específicos para la vista de tablet */
+  .redesYcontacto {
+    flex-direction: row;
+    margin-bottom: 1rem;
+    padding-bottom: 0%;
+    justify-content: space-evenly;
   }
 
+  .footer-container, .informacion-contacto{
+    align-items: center;
+    justify-content: center;
+    width:49%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Estilos para móvil (320px) */
+@media (max-width: 320px) {
+  /* Agrega aquí tus estilos específicos para la vista móvil */
+}

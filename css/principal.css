@@ -69,7 +69,8 @@ a:link {
 #donde {
   right: 2.5rem;
   top: 13rem;
-}
+ 
+ }
 #contacto {
   
   right: 2.5rem;
@@ -93,9 +94,11 @@ main {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  min-height: 100vh;
+height:fit-content;
 }
-
+section{
+  height: fit-content!important;
+}
 #quienes-main {
   display: flex;
   flex-direction: row;
@@ -110,7 +113,6 @@ main {
   background-position: center;
   font-family: "Belanosima", sans-serif;
   border: solid #181823 1px;
-  height: fit-content!important;
 }
 
 #propuesta-main {
@@ -127,7 +129,6 @@ main {
   background-position: center;
   font-family: "Belanosima", sans-serif;
   border: solid #181823 1px;
-  height: fit-content!important;
 }
 
 #why-main {
@@ -144,7 +145,6 @@ main {
   background-position: center;
   font-family: "Belanosima", sans-serif;
   border: solid #181823 1px;
-  height: fit-content!important;
 }
 
 #noticias-main {
@@ -161,7 +161,6 @@ main {
   background-position: center;
   font-family: "Belanosima", sans-serif;
   border: solid #181823 1px;
-  height: fit-content!important;
 }
 
 .noticias-div {
@@ -174,8 +173,6 @@ main {
   text-align: center;
   max-width: 90%;
   font-size: 1.25rem;
-  height:fit-content;
-  min-height: fit-content;
 }
 
 .quienes-div {
@@ -188,8 +185,6 @@ main {
   max-width: 90%;
   align-items: center;
   font-size: 1.25rem;
-  height:fit-content;
-  min-height: fit-content;
 }
 
 .why-div {
@@ -202,8 +197,6 @@ main {
   max-width: 90%;
   align-items: center;
   font-size: 1.25rem;
-  height:fit-content;
-  min-height: fit-content;
 }
 .propuesta-div {
   display: flex;
@@ -215,10 +208,10 @@ main {
   max-width: 90%;
   align-items: center;
   font-size: 1.25rem;
-  height:fit-content;
-  min-height: fit-content;
 }
-
+section{
+  height: fit-content!important;
+}
 h3 {
   font-size: 1.875rem;
   padding: 1rem;
@@ -283,7 +276,9 @@ footer {
 }
 .footer-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  width: 100%;
   align-items: center;
   padding: 3.125rem;
 }
@@ -356,29 +351,20 @@ footer {
 
 /* Estilos para tablet (768px) */
 @media (max-width: 768px) {
-  .ul-barra{
-    display: flex;
-    flex-direction: column;
+  /* Agrega aquí tus estilos específicos para la vista de tablet */
+}
+@media(width > 576px){
+  .footer-container{
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-  }
-  
-  .barra li{
-      font-size: 2.8125rem;
-      margin: 0.3125rem 0;
   }
 }
 
 /* Estilos para móvil (320px) */
 @media (max-width: 320px) {
-  .barra li {
-    display: block;
-    text-align: center;
-    margin-bottom: 0.3125rem; 
+  /* Agrega aquí tus estilos específicos para la vista móvil */
+  .barra{
+    font-size: 1rem;
   }
 }
-
-/* Estilos para pantallas de PC (mayor a 768px) */
-@media (min-width: 769px) {
-}
-
-
