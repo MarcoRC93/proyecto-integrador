@@ -68,9 +68,8 @@ a:link {
 }
 #donde {
   right: 2.5rem;
-  top: 13rem;
- 
- }
+  top: 13rem; 
+}
 #contacto {
   
   right: 2.5rem;
@@ -355,9 +354,14 @@ footer {
 
 /* Estilos para tablet (768px) */
 @media (max-width: 768px) {
-  /* Agrega aquí tus estilos específicos para la vista de tablet */
+  html{
+    font-size: 16px;
+  }
 }
 @media(width > 576px){
+  html{
+    font-size: 14px;
+  }
   .footer-container{
     flex-direction: row;
     justify-content: space-evenly;
@@ -365,10 +369,53 @@ footer {
   }
 }
 
+@media(width < 576px){
+  html{
+    font-size: 12px;
+  }
+  .barra {
+    padding-bottom: 1rem;
+  }
+  .ocultar{
+    display: none;
+  }
+}
+
 /* Estilos para móvil (320px) */
 @media (max-width: 320px) {
-  /* Agrega aquí tus estilos específicos para la vista móvil */
+  html{
+    font-size: 10px;
+  }
   .barra{
     font-size: 1rem;
   }
+  #ultimas{
+    left: 2.5rem;
+  }
+  #donde {
+    left: 2.5rem;
+  }
+  #contacto{
+    left: 2.5rem;
+  }
+  .div-formulario{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 23rem;
+  }
+  .mapa{
+    display: none;
+  }
+}
+
+@media (min-width: 1200px){
+  html{
+    font-size: 20px;
+  }
+}
+@media (min-widtg: 2400px) {
+  html{
+    font-size: 24px;
+  }
+
 }
