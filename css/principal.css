@@ -13,7 +13,7 @@
   --color-iconos: #eff5f5;
 }
 header {
-  width: 100%;
+  width: 100vw;
   background-size: cover;
   background-position: center;
 }
@@ -110,6 +110,7 @@ main {
   background-position: center;
   font-family: "Belanosima", sans-serif;
   border: solid #181823 1px;
+  height: fit-content!important;
 }
 
 #propuesta-main {
@@ -126,6 +127,7 @@ main {
   background-position: center;
   font-family: "Belanosima", sans-serif;
   border: solid #181823 1px;
+  height: fit-content!important;
 }
 
 #why-main {
@@ -142,6 +144,7 @@ main {
   background-position: center;
   font-family: "Belanosima", sans-serif;
   border: solid #181823 1px;
+  height: fit-content!important;
 }
 
 #noticias-main {
@@ -158,6 +161,7 @@ main {
   background-position: center;
   font-family: "Belanosima", sans-serif;
   border: solid #181823 1px;
+  height: fit-content!important;
 }
 
 .noticias-div {
@@ -170,6 +174,8 @@ main {
   text-align: center;
   max-width: 90%;
   font-size: 1.25rem;
+  height:fit-content;
+  min-height: fit-content;
 }
 
 .quienes-div {
@@ -182,6 +188,8 @@ main {
   max-width: 90%;
   align-items: center;
   font-size: 1.25rem;
+  height:fit-content;
+  min-height: fit-content;
 }
 
 .why-div {
@@ -194,6 +202,8 @@ main {
   max-width: 90%;
   align-items: center;
   font-size: 1.25rem;
+  height:fit-content;
+  min-height: fit-content;
 }
 .propuesta-div {
   display: flex;
@@ -205,6 +215,8 @@ main {
   max-width: 90%;
   align-items: center;
   font-size: 1.25rem;
+  height:fit-content;
+  min-height: fit-content;
 }
 
 h3 {
@@ -344,13 +356,21 @@ footer {
 
 /* Estilos para tablet (768px) */
 @media (max-width: 768px) {
-  /* Agrega aquí tus estilos específicos para la vista de tablet */
+  .barra li{
+    font-size: 3rem;
+  }
 }
 
 /* Estilos para móvil (320px) */
 @media (max-width: 320px) {
   /* Agrega aquí tus estilos específicos para la vista móvil */
-  .barra{
+  .barra li{
     font-size: 1rem;
   }
 }
+
+/* Estilos para pantallas de PC (mayor a 768px) */
+@media (min-width: 769px) {
+}
+
+  /* Agrega aquí tus estilos específicos para la vista de escritorio */
